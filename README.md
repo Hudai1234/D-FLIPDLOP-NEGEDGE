@@ -35,22 +35,22 @@ Next state of D flip-flop is always equal to data input, D for every positive tr
 
 *PROGRAM*
 
- Developed by:Janani S
-RegisterNumber: 24901127
+ Developed by:T.Hudaifa Mahzumia    
+RegisterNumber: 24901157
 
 
-module experiment8(D,c1k,Q,Qbar);
-input D,c1k;
-output reg Q;
-output reg Qbar;
-initial Q=0;
-initial Qbar=1;
-always @(posedge c1k)
-begin
-Q=D;
-Qbar=~D;
-end
-endmodule
+module experiment8(D,c1k,Q,Qbar);  
+input D,c1k;  
+output reg Q;   
+output reg Qbar;   
+initial Q=0;   
+initial Qbar=1;   
+always @(posedge c1k)   
+begin   
+Q=D;   
+Qbar=~D;  
+end  
+endmodule  
 
 
 *RTL LOGIC FOR FLIPFLOPS*
